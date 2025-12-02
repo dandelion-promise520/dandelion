@@ -28,8 +28,6 @@ function generateDocsSidebar(docsDir = path.resolve(__dirname, "..", "docs")) {
       .sort((a, b) =>
         a.text.localeCompare(b.text, "zh-Hans-CN", { numeric: true })
       );
-
-    console.log(entries);
   } catch (e) {
     // 如果目录不存在或读取失败，返回空数组，避免构建时报错
     console.error("generateDocsSidebar error:", e);
