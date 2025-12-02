@@ -1,29 +1,50 @@
 {
-  "hash": "fa4a83e5",
-  "configHash": "bf75ac28",
-  "lockfileHash": "b71bc8a7",
-  "browserHash": "2b757b87",
+  "hash": "86182b50",
+  "configHash": "16f46d5c",
+  "lockfileHash": "c05ce248",
+  "browserHash": "bc568e65",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/.pnpm/vue@3.5.25/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "a418c4dc",
+      "fileHash": "4a0d89a8",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/.pnpm/@vue+devtools-api@8.0.5/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "0039d28e",
+      "fileHash": "fa5876b8",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/.pnpm/@vueuse+core@14.0.0_vue@3.5.25/node_modules/@vueuse/core/dist/index.js",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "3f8a8807",
+      "fileHash": "9635c532",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../node_modules/.pnpm/@vueuse+integrations@14.0.0_focus-trap@7.6.6_vue@3.5.25/node_modules/@vueuse/integrations/dist/useFocusTrap.js",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "5686dcf0",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "af1fcdeb",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../node_modules/.pnpm/minisearch@7.2.0/node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "d0dcf4ec",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-2T5EYUX5": {
+      "file": "chunk-2T5EYUX5.js"
+    },
     "chunk-MCZNG3PT": {
       "file": "chunk-MCZNG3PT.js"
     }

@@ -33,12 +33,15 @@ export default defineConfig({
           },
           { text: "wsl实现局域网访问", link: "/docs/wsl实现局域网访问" },
         ],
+        collapsed: true,
       },
     ],
 
     socialLinks: [
       { icon: "github", link: "https://github.com/dandelion-promise520" },
     ],
+
+    search: { provider: "local" },
   },
   markdown: {
     image: {

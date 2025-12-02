@@ -1,6 +1,8 @@
 ## 1、在 WSL 终端中，编辑 wsl.conf 文件：
 
+```bash
     sudo nano /etc/wsl.conf
+```
 
 ## 2、添加以下内容（将 `172.24.163.100`替换为你想要的 IP）：
 
