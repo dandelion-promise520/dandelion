@@ -20,10 +20,6 @@
 </template>
 
 <style scoped>
-body {
-  overflow: hidden;
-}
-
 #not-found {
   box-sizing: border;
   --bg: #ff8a65;
