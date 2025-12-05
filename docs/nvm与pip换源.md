@@ -1,3 +1,9 @@
+## pip换源
+
+```bash
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple  
+```
+
 ## nvm换源
 
 ```bash
