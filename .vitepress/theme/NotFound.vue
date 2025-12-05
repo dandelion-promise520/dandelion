@@ -1,26 +1,33 @@
+<script setup lang="ts">
+import { withBase } from "vitepress";
+</script>
+
 <template>
-  <div id="not-found">
-    <div class="cow">
-      <div class="head">
-        <div class="face"></div>
+  <div>
+    <div id="not-found">
+      <div class="cow">
+        <div class="head">
+          <div class="face"></div>
+        </div>
+        <div class="leg b l"></div>
+        <div class="leg b r"></div>
+        <div class="leg f l"></div>
+        <div class="leg f r"></div>
+        <div class="tail"></div>
       </div>
-      <div class="leg b l"></div>
-      <div class="leg b r"></div>
-      <div class="leg f l"></div>
-      <div class="leg f r"></div>
-      <div class="tail"></div>
-    </div>
-    <div class="well">
-      <a class="home-btn" href="/">回到首页</a>
-    </div>
-    <div class="text-box">
-      <h1>404</h1>
+      <div class="well">
+        <a class="home-btn" :href="withBase('/')">回到首页</a>
+      </div>
+      <div class="text-box">
+        <h1>404</h1>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-#not-found {
+#not-found,
+.not-found {
   box-sizing: border;
   --bg: #ff8a65;
   --anime-speed: 0.2s;

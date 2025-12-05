@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
-import { nextTick, provide } from "vue";
+import { nextTick, onMounted, provide } from "vue";
 import NotFound from "./NotFound.vue";
 
 const { isDark } = useData();
@@ -39,6 +39,12 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
       pseudoElement: `::view-transition-${isDark.value ? "old" : "new"}(root)`,
     }
   );
+});
+
+onMounted(() => {
+  if (!page.value.isNotFound) return;
+
+  document.body.style.overflow = "hidden";
 });
 </script>
 
